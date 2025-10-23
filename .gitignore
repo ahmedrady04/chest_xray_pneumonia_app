@@ -14,8 +14,7 @@ venv/
 .env/
 
 # Model files
-*.h5
-*.keras
+
 
 # Data or uploads
 uploads/
