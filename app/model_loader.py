@@ -4,7 +4,9 @@ import numpy as np
 from pathlib import Path
 
 # === Configuration ===
-MODEL_PATH = Path(__file__).resolve().parent / "best_model.h5"
+# Correct path: go up one directory, then into /models/
+MODEL_PATH = Path(__file__).resolve().parent.parent / "models" / "best_model.h5"
+print(f"🔄 Loading model from: {MODEL_PATH}")
 IMG_SIZE = (224, 224)
 CLASS_NAMES = ["NORMAL", "PNEUMONIA"]
 
