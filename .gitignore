@@ -1,0 +1,30 @@
+# macOS system files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Python cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environment
+venv/
+.env/
+
+# Model files
+*.h5
+*.keras
+
+# Data or uploads
+uploads/
+*.zip
+*.tar
+*.gz
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Logs
+*.log
